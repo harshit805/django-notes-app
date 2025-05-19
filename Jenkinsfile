@@ -13,7 +13,7 @@ pipeline{
         stage("code"){
             steps{
                 script{
-                    echo "this is cloning the code enjoy"
+                    echo "this is cloning the code enjoyyy"
                     clone("https://github.com/harshit805/django-notes-app.git","main")
                     echo "code cloning successful"
                 }
