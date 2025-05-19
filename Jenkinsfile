@@ -49,6 +49,7 @@ pipeline{
         stage("deploy") {
     steps {
         echo "this is deploying the code"
+        sh "docker compose down -d"
 
         // Start MySQL container
         sh '''
